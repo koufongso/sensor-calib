@@ -7,7 +7,7 @@
 <p>And there are serveral files in the package:</p> 
 
 ### sensor_calib_node:
-<p> usage: sensor_calib_node &ltinput bag file path&gt &ltoutput txt file patg&gt
+<p> usage: sensor_calib_node &ltinput bag file path&gt &ltoutput txt file path&gt
 <p>take an input bag file and extract the "/usb_cam/image_raw" topics and then calculate the square sum different between current frame and previous frame. Then the reuslt will be save in the txt file if provided.If not, it will save as "example.txt".</p>
 
 ### stat.py
